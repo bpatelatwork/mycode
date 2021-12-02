@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+# Note: https://github.com/csfeeser/Python/blob/master/pyapi/sessions_vs_cookies.md
+
 from flask import Flask
 from flask import make_response
 from flask import request
