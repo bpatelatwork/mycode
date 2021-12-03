@@ -38,7 +38,7 @@ def graphin():
     print(svruptime)
 
     # graphin
-    N = 2 # total number of bars
+    N = len(xtick) # total number of bars
     ind = np.arange(N)    # the x locations for the groups
     width = 0.35       # the width of the bars: can also be len(x) sequence
     p1 = plt.bar(ind, svruptime, width)
